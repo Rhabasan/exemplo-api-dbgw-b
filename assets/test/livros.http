@@ -1,1 +1,22 @@
-GET https://8080-bronze-bear-3lzwvw6e.ws-us18.gitpod.io/filmes/3
+GET https://8080-olive-duck-s8uf2dv8.ws-us18.gitpod.io/filmes
+
+###
+
+POST https://8080-olive-duck-s8uf2dv8.ws-us18.gitpod.io/filmes
+Content-Type: application/json
+
+{
+    "titulo" : "Exemplo"
+}
+
+###
+PUT  https://8080-olive-duck-s8uf2dv8.ws-us18.gitpod.io/filmes/5
+
+###
+
+PUT  https://8080-olive-duck-s8uf2dv8.ws-us18.gitpod.io/filmes/5
+Content-Type: application/json
+
+{
+    "titulo" : "Ghostbusters"
+}
