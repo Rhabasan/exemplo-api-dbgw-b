@@ -1,8 +1,10 @@
-GET https://8080-olive-duck-s8uf2dv8.ws-us18.gitpod.io/filmes
+@url = https://8080-green-chicken-qrzf4s3f.ws-us17.gitpod.io/filmes
+
+GET {{url}}/filmes
 
 ###
 
-POST https://8080-olive-duck-s8uf2dv8.ws-us18.gitpod.io/filmes
+POST {{url}}/filmes 
 Content-Type: application/json
 
 {
@@ -10,11 +12,7 @@ Content-Type: application/json
 }
 
 ###
-PUT  https://8080-olive-duck-s8uf2dv8.ws-us18.gitpod.io/filmes/5
-
-###
-
-PUT  https://8080-olive-duck-s8uf2dv8.ws-us18.gitpod.io/filmes/5
+PUT  {{url}}/filmes
 Content-Type: application/json
 
 {
